@@ -1,0 +1,15 @@
+
+t.me/qaalluretest_bot
+@qaalluretest_bot
+
+6801220139:AAGg6Xv6ywvPIFP7sBzWelwwvYkuK9Bii_Q
+
+https://api.telegram.org/bot6801220139:AAGg6Xv6ywvPIFP7sBzWelwwvYkuK9Bii_Q/getUpdates
+
+QA_lesson13
+-1002037565494
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1002037565494", "text": "This is a test from curl", "disable_notification": true}' https://api.telegram.org/bot6801220139:AAGg6Xv6ywvPIFP7sBzWelwwvYkuK9Bii_Q/sendMessage
+
+
+java -jar "-DconfigFile=./notifications/telegram.json" ./notifications/allure-notifications-4.5.0.jar
